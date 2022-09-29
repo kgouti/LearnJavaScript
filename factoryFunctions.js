@@ -2,6 +2,7 @@
 As the name suggests, factory is a place where it generates objects.
 Factory functions create blue prints for objects.
 Factory functions over comes the disadvantage of hard coded objects
+Camel case is used for factory function creation: createCircleWithInches
 */
 console.clear()
 

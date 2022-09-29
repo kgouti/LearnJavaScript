@@ -14,7 +14,7 @@ Differences between factory and constructor function
 
 console.clear()
 
-function circle(radius) {
+function Circle(radius) {
     this.radius = radius;
     this.draw = function() { //Notice the difference in the way function is defined in constructor
         //function and factory function
@@ -23,12 +23,12 @@ function circle(radius) {
     }
 }
 
-let c1 = new circle(3) //creating the circle object using the new keyword
+let c1 = new Circle(3) //creating the circle object using the new keyword
 console.log(c1) // displays the circle object
 console.log(c1.radius)
 console.log(c1.draw())
 
-let c2 = new circle(5) //creating another circle object using the new keyword
+let c2 = new Circle(5) //creating another circle object using the new keyword
 console.log(c2) // displays the circle object
 console.log(c2.radius)
 console.log(c2.draw())
