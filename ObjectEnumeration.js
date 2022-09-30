@@ -30,4 +30,7 @@ Object.entries Returns an array of key/values of the enumerable properties of an
 */
 for (key3 of Object.entries(circle)) {
     console.log(key3)
+    for ( j in key3) { // this for loop is to loop through the returned array from Object.entries
+        console.log(key3[j])
+    }
 }
